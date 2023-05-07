@@ -1,13 +1,9 @@
 import React from 'react';
-// @ts-ignore
-import logo from './logo.svg';
-
+import '../src/assets/styles/index.scss'
+import Routing from './router'
 function App() {
-
   return (
-      <>
-        d
-      </>
+      <Routing/>
   );
 }
 
